@@ -7,7 +7,7 @@ export default ({ url, style, className = '', color = '#151513' }) => (
     href={url}
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="View source on Github"
+    aria-label="X"
     style={style}
   >
     <svg
