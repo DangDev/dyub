@@ -2,9 +2,9 @@ import { Component } from 'react'
 
 export default class ServiceWorkerNotifications extends Component {
   static defaultProps = {
-    readyMessage: 'This site is cached for offline use!',
-    updatedMessage: 'New content is available please refresh.',
-    offlineMessage: 'You are now offline, browsing from cache.',
+    readyMessage: 'Trang Web này được xử lý để có thể hoạt động ngoại tuyến!',
+    updatedMessage: 'Trang Web vừa mới cập nhật, vui lòng tải lại trang.',
+    offlineMessage: 'Bạn đang ngoại tuyến, bạn không nhận được thông báo mới cho đến khi có kết nối mạng.',
     ready: false,
     updated: false,
     offline: false,
@@ -29,7 +29,7 @@ export default class ServiceWorkerNotifications extends Component {
 
   reloadIfUpdated = () => {
     if (window.swUpdated) {
-      console.log('New content available: reloading window')
+      console.log('Có nội dung mới, hãy làm mới ứng dụng!')
       window.location.reload()
     }
   }
