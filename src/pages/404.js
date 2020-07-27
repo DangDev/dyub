@@ -18,16 +18,18 @@ export default ({ children }) => (
     render={data => (
       <Layout>
         <Helmet>
-          <title>404 – Page Not Found</title>
+          <title>404 – Lỗi</title>
         </Helmet>
         <section className="section thick">
           <div className="container skinny taCenter">
             <p>
               <AlertTriangle size="5rem" />
             </p>
-            <h1>404 - Page Not Found</h1>
+            <h1>404 - Trang không tồn tại hoặc có thể bị xóa</h1>
             <p>
-              We can't find the page you are looking for!
+              Tớ không thể tìm thấy trang này trong hệ thống của mình. Bạn hãy xem lại địa chỉ có đúng không.
+              <br />
+              Nếu bạn nghĩ đây là một lỗi, vui lòng hãy nhắn tin cho mình. Fb: <a href="https://facebook.com/bunnyMC.2508/">Nguyễn Hải Đăng</a> 
               <br />
               Head back to{' '}
               <Link to="/">{_get(data, 'globalSettings.siteTitle')}</Link>
