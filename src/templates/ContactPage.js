@@ -26,8 +26,7 @@ export const ContactPageTemplate = ({
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-   <section className="section Contact--Section1">
-      <div className="container Contact--Section1--Container">
+   <section className="section Contact--Section1">      
         <div>
           <Content source={body} />          
         </div>
