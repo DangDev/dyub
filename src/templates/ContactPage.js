@@ -26,10 +26,7 @@ export const ContactPageTemplate = ({
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-   <section className="section Contact--Section1">      
-        <div>
-          <Content source={body} />          
-        </div>
+          <Content source={body} />                 
 
     <GoogleMap locations={locations} />
   </main>
