@@ -5,7 +5,7 @@ export default () => (
   <div
     className="Logo"
     style={{
-      backgroundImage: `url(/images/logo.svg)`
+      backgroundImage: `url(https://lh3.googleusercontent.com/fife/ABSRlIp7kHJh_abHt7vbozD8cyt75SieYCAFhP7PePEvz1_qwFZDHv_-Ib1Mock55UAyBc7o7rGXP1kQrkOLDtQ5suRLR40pzpkxa6ERVpjweDKLQi3DxpEXzFYkF5Krio_oSKuqYb6CuOcdq-B-G5rvkjS7pltQ32GfGA65sEs7vWTXbSJb0upAik6wqlpcvNTlwzZwqeRxzfXww7MrPRVDZGNaRQ6oUTBY1kc6YCUj-C10HCJ6d4p8ndmDNMk6gccUVSowy3fDwZ_92oWiUiitYaU_KeQ0tT4vI5z8xNDSfWz1o6IzjJHfaV5q6ONLa0o8goLhFgxnZOEQsZq9eMR18F3hZF5Y3KTLVDe9W-cphA7_zRlgkwAavEjSF9a4387nQbwKxfaNA9ltsAkJTr9V6YU-7ELho7HUAKjWPNnAG8_BRiD6Z_4ksQ3cM3JoSvJsDa8hKNfCLrSRQ21POHcMTfIvP3Hjbw1EBRii1uZGVpgCtEImzp6_umBiyMOBj4Vj0kRyxxXh8lUXIQNc-mff4J3s9--9oyzQnuoRoq7z6T_-S7fFQPU-g986-eaeahH6xbKbFgAC7ybVpIhzvYF8I6REVNyuY079CKnurVPs1b3bsekpEqugd4Ko05tkJ6iyQCgAqIU6kE2qFti3pmEc8QG3vNbJtxtCAxjuYsmMZd4yQaMvSlcO54AvY2HZfcFP1MNMklRLsSVbnGEDmDlG0O-SqZRM6x6Xu6U=w1024-h523-ft)`
     }}
   />
 )
