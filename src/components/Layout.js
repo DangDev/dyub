@@ -73,7 +73,7 @@ export default ({ children, meta, title }) => {
               {...data.settingsYaml}
             />
 
-            <GithubCorner url="https://github.com/Dang" />
+            <GithubCorner url="https://github.com/DangDev" />
 
             <Nav subNav={subNav} />
 
