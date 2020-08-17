@@ -6,7 +6,7 @@ date: '2020-08-17'
 featuredImage: 'https://ucarecdn.com/8851103c-0c5c-4a2c-853c-e91954494d8f/'
 excerpt: 'Kích thước cơ bản: 4,2MB. Tùy vào điện thoại.'
 categories:
-  - category: Updates
+  - category: Ứng dụng
 meta:
   description: test meta description
   title: test meta title
