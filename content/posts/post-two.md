@@ -8,8 +8,8 @@ excerpt: 'Kích thước cơ bản: 4,2MB. Tùy vào điện thoại.'
 categories:
   - category: Ứng dụng
 meta:
-  description: test meta description
-  title: test meta title
+  description: ''
+  title: Youtube Vanced App
 ---
 * Tên ứng dụng: Youtube Vanced Dowloader.
 * Mô tả ngắn: Công cụ tải Youtube Vanced.
@@ -32,12 +32,4 @@ Khác với Youtube Premium, Youtube Vanced là một ứng dụng miễn phí c
 
 # Khu vực tải:
 
-accordion:
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
+[![G Drive Download!](https://github.com/DangDev/Game-drive/releases/download/Image/gdrive-button.png)](https://drive.google.com/file/d/1WpcHo49Gn6TVCKcQcINRTVdmfam-ZGWi/view?usp=sharing)
