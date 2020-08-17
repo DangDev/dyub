@@ -50,7 +50,7 @@ export class Navigation extends Component {
           </Link>
           <div className="Nav--Links">
             <NavLink to="/">Trang chủ</NavLink>
-            <NavLink to="/components/">Mẫu</NavLink>
+            <NavLink to="/components/">Trạng thái</NavLink>
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -83,7 +83,7 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/default/">Trang thái</NavLink>
+            <NavLink to="/default/">Mẫu bài đăng</NavLink>
             <NavLink to="/contact/">Liên hệ</NavLink>
           </div>
           <button
