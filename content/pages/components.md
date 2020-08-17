@@ -11,6 +11,10 @@ section1: >-
   # Trang này thông báo tới bạn trạng thái hiện hành trên Server hiện tại.
 
 
+  ![Netlify Server
+  Status](https://api.netlify.com/api/v1/badges/d39e7176-80d8-4889-be1d-2462c3c352d6/deploy-status)
+
+
   ## Có 3 loại thông báo:
 
 
