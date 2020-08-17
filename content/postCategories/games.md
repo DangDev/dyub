@@ -2,6 +2,8 @@
 template: BlogIndex
 title: Games
 subtitle: ''
-featuredImage: 'https://ucarecdn.com/83a3c73d-f234-4086-9fad-cee3a9626230/'
+featuredImage: 'https://ucarecdn.com/ef934dca-11ba-4a2c-8343-4332e3192113/'
+meta:
+  title: Games
 ---
 
