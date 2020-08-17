@@ -2,7 +2,6 @@
 template: BlogIndex
 title: Ứng dụng
 subtitle: ''
-featuredImage: >-
-  https://ucarecdn.com/db0b1431-8739-426f-970d-8a80eacf02ef/-/preview/-/rotate/270/
+featuredImage: 'https://ucarecdn.com/20fc925f-6b42-4f29-a89e-04d0d0d369a7/'
 ---
 
