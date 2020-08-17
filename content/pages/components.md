@@ -12,6 +12,13 @@ section1: >-
   Status](https://api.netlify.com/api/v1/badges/d39e7176-80d8-4889-be1d-2462c3c352d6/deploy-status)
 
 
+  Nếu bạn cần thêm thông tin chi tiết, vui lòng sử dụng nút dưới đây:
+
+
+  [![Netlify
+  Deploy](https://i.imgur.com/kUBDpHE.png)](https://app.netlify.com/sites/dyub/deploys)
+
+
   # Trang này thông báo tới bạn trạng thái hiện hành trên Server hiện tại.
 
 
