@@ -16,7 +16,7 @@ meta:
 
 Với tốc độ load trang siêu tốc độ đến từ CDN của Netlify, website cho bạn tận hưởng sức mạnh tuyệt vời mà nó mang lại:
 
-* Hiện thị tr trong vòng 1 giây.
+* Hiện thị trong vòng 1 giây.
 * Chuyển tab mượt mà.
 * Đạt điểm số cao trong bài kiểm tra tốc độ đến từ Google.
 
@@ -26,7 +26,7 @@ Với tốc độ load trang siêu tốc độ đến từ CDN của Netlify, we
 
 Website sử dụng các nguồn lưu trữ miễn phí như Google Drive, Dropbox, OneDrive, Github, Mega,... Các nguồn lưu trữ miễn phí này cho tốc độ download siêu nhanh, đảm bảo được thời gian cho bạn.
 
-## Game và Ứng dụng được sưu t từ nhiều nguồn khác nhau và rất an toàn:
+## Game và Ứng dụng được sưu tầm từ nhiều nguồn khác nhau và rất an toàn:
 
 ![](https://ucarecdn.com/c302a0e1-cb55-4e2e-862a-6ee3bb2f57d2/)
 
