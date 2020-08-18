@@ -141,8 +141,7 @@ export const pageQuery = graphql`
           category
         }
       }
-    }
-    section1
+    }  
     allPosts: allMarkdownRemark(
       filter: { fields: { contentType: { eq: "posts" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
