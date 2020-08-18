@@ -6,13 +6,11 @@ import { ChevronLeft } from 'react-feather'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
-import Accordion from '../components/Accordion'
 
 export const SinglePostTemplate = ({
   title,
   date,
   body,
-  accordion,
   nextPostURL,
   prevPostURL,
   categories = []
@@ -62,12 +60,7 @@ export const SinglePostTemplate = ({
           )}
 
           <div className="SinglePost--InnerContent">
-            <Content source={body} />
-              <section className="section">
-                <div className="container">
-                  <Accordion items={accordion} />
-                </div>
-              </section>               
+            <Content source={body} />                           
           </div>
 
           <div className="SinglePost--Pagination">
@@ -134,10 +127,6 @@ export const pageQuery = graphql`
           category
         }
       }
-    }
-    accordion {
-          title
-          description
     }
     allPosts: allMarkdownRemark(
       filter: { fields: { contentType: { eq: "posts" } } }
