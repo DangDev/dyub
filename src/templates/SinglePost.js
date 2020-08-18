@@ -12,7 +12,6 @@ export const SinglePostTemplate = ({
   title,
   date,
   body, 
-  section1,
   nextPostURL,
   prevPostURL,
   categories = []
@@ -68,13 +67,7 @@ export const SinglePostTemplate = ({
                   <Popup>
                     <Content source={body} />
                   </Popup>
-                </div>
-              </section>
-                  <section className="section">
-                     <div className="container">
-                       <Content source={section1} />
-                     </div>
-                  </section>
+                </div>             
           </div>
 
           <div className="SinglePost--Pagination">
