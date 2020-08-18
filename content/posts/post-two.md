@@ -32,4 +32,4 @@ Khác với Youtube Premium, Youtube Vanced là một ứng dụng miễn phí c
 
 # Khu vực tải:
 
-[![G Drive Download!](https://github.com/DangDev/Game-drive/releases/download/Image/gdrive-button.png)](https://drive.google.com/file/d/1WpcHo49Gn6TVCKcQcINRTVdmfam-ZGWi/view?usp=sharing)
+[![G Drive Download!](https://github.com/DangDev/Game-drive/releases/download/Image/gdrive-button.png)](https://drive.google.com/uc?id=1WpcHo49Gn6TVCKcQcINRTVdmfam-ZGWi&export=download)
