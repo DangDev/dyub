@@ -6,6 +6,7 @@ import { ChevronLeft } from 'react-feather'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
+import Popup from '../components/Popup'
 
 export const SinglePostTemplate = ({
   title,
@@ -84,6 +85,13 @@ export const SinglePostTemplate = ({
         </div>
       </div>
     </article>
+      <section className="section">
+      <div className="container">
+        <Popup>
+          <h1>Xin chào</h1>
+        </Popup>
+      </div>
+    </section>
   </main>
 )
 
