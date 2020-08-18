@@ -6,6 +6,7 @@ import { ChevronLeft } from 'react-feather'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
+import Popup from '../components/Popup'
 
 export const SinglePostTemplate = ({
   title,
@@ -60,7 +61,14 @@ export const SinglePostTemplate = ({
           )}
 
           <div className="SinglePost--InnerContent">
-            <Content source={body} />                           
+            <Content source={body} />    
+              <section className="section">
+                <div className="container">
+                  <Popup>
+                    <Content source={body} />
+                  </Popup>
+                </div>
+              </section>
           </div>
 
           <div className="SinglePost--Pagination">
