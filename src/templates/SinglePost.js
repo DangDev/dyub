@@ -62,6 +62,13 @@ export const SinglePostTemplate = ({
 
           <div className="SinglePost--InnerContent">
             <Content source={body} />
+                <section className="section">
+                  <div className="container">
+                    <Popup>
+                      <h1>Xin chào</h1>
+                    </Popup>
+                  </div>
+                </section>
           </div>
 
           <div className="SinglePost--Pagination">
@@ -84,14 +91,7 @@ export const SinglePostTemplate = ({
           </div>
         </div>
       </div>
-    </article>
-      <section className="section">
-      <div className="container">
-        <Popup>
-          <h1>Xin chào</h1>
-        </Popup>
-      </div>
-    </section>
+    </article>    
   </main>
 )
 
