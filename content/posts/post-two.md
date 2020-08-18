@@ -1,5 +1,5 @@
 ---
-template: SinglePost
+template: ComponentsPage
 title: 'Youtube Vanced App - Xem video Youtube không quảng cáo, xem nền'
 status: Published
 date: '2020-08-17'
