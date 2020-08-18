@@ -11,7 +11,8 @@ import Popup from '../components/Popup'
 export const SinglePostTemplate = ({
   title,
   date,
-  body,
+  body, 
+  section1,
   nextPostURL,
   prevPostURL,
   categories = []
@@ -69,6 +70,11 @@ export const SinglePostTemplate = ({
                   </Popup>
                 </div>
               </section>
+                  <section className="section">
+                     <div className="container">
+                       <Content source={section1} />
+                     </div>
+                  </section>
           </div>
 
           <div className="SinglePost--Pagination">
@@ -136,6 +142,7 @@ export const pageQuery = graphql`
         }
       }
     }
+    section1
     allPosts: allMarkdownRemark(
       filter: { fields: { contentType: { eq: "posts" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
