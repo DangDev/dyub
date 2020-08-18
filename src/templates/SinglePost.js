@@ -134,7 +134,11 @@ export const pageQuery = graphql`
           category
         }
       }
-    }        
+    }
+    accordion {
+          title
+          description
+    }
     allPosts: allMarkdownRemark(
       filter: { fields: { contentType: { eq: "posts" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
@@ -160,10 +164,6 @@ export const pageQuery = graphql`
           }
         }
       }
-    }
-    accordion {
-          title
-          description
     }
   }
 `
