@@ -6,12 +6,13 @@ import { ChevronLeft } from 'react-feather'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
-import Popup from '../components/Popup'
+import Accordion from '../components/Accordion'
 
 export const SinglePostTemplate = ({
   title,
   date,
   body,
+  accordion,
   nextPostURL,
   prevPostURL,
   categories = []
@@ -62,13 +63,11 @@ export const SinglePostTemplate = ({
 
           <div className="SinglePost--InnerContent">
             <Content source={body} />
-                <section className="section">
-                  <div className="container">
-                    <Popup>
-                      <h1>Xin chào</h1>
-                    </Popup>
-                  </div>
-                </section>
+              <section className="section">
+                <div className="container">
+                  <Accordion items={accordion} />
+                </div>
+              </section>               
           </div>
 
           <div className="SinglePost--Pagination">
