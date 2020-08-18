@@ -33,3 +33,13 @@ Khác với Youtube Premium, Youtube Vanced là một ứng dụng miễn phí c
 # Khu vực tải:
 
 [![G Drive Download!](https://github.com/DangDev/Game-drive/releases/download/Image/gdrive-button.png)](https://drive.google.com/uc?id=1WpcHo49Gn6TVCKcQcINRTVdmfam-ZGWi&export=download)
+
+accordion:
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
